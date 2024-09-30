@@ -1,0 +1,200 @@
+.main{
+    background-color: black;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: -2px;
+}
+.start{
+    height: 100%;
+    width: 190px;
+}
+.start img{
+    width: 100px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+.center{
+    margin-left: 150px;
+    margin-top: -55px;
+    margin-right: 353px;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-item{
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 13.5px;
+    color: rgb(210, 210, 210);
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: rgba(188, 187, 187, 0.707);
+}
+.nav-link:active{
+    color: white;
+}
+.end{
+    width: 260px;
+    margin-left: 1190px;
+    margin-top: -40px;
+    display: flex;
+}
+.search{
+    border: none;
+    background: transparent;
+
+}
+.children{
+    border: none;
+    background: transparent;
+}
+.bell{
+    border: none;
+    background: transparent;
+}
+.avatar{
+    border: none;
+    background: transparent;
+}
+.avatar img{
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+.search .bi{
+    color: white;
+    font-size: x-large;
+}
+.children{
+    color: white;
+}
+.bell .bi{
+    color: white;
+    font-size: x-large;
+}
+.end button{
+    padding-left: 20px;
+}
+.end button:hover{
+    cursor: pointer;
+}
+.header-container{
+    padding-right: 8px;
+}
+.video{
+    height: 100%;
+    width: 1519px;
+    margin-left: -8px;
+    margin-top: -33px;
+}
+.header-video .bottom{
+    position: absolute;
+    margin-top: -154px;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    background: linear-gradient(to bottom, transparent, black);
+}
+.title{
+    background-color: antiquewhite;
+    width: 525px;
+    height: 360px;
+    margin-top: -663px;
+}
+.title .title1{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+.title a{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+}
+.title .title2{
+    height: 165px;
+    width: 403px;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.title p{
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-size: large;
+    margin-left: 40px;
+    width: 525px;
+}
+.header-button{
+    margin-left: 29px;
+}
+.title button{
+    padding: 10px 30px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: larger;
+}
+.header-button .bi{
+    font-size: x-large;
+}
+
+.play-button{
+    cursor: pointer;
+}
+.play-button:hover{
+    background-color: rgba(255, 255, 255, 0.421);
+    cursor: pointer;
+}
+.info-button{
+    background-color: rgba(128, 128, 128, 0.568);
+    color: white;
+}
+.info-button:hover{
+    background-color: rgba(128, 128, 128, 0.168);
+    cursor: pointer;
+}
+.video-container{
+    height: 300px;
+    margin-top: 132px;
+    position: absolute;
+    margin-left: 40px;
+}
+.list-heading a{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.video-list img{
+    width: 200px;
+    border-radius: 5px;
+}
+.video-list{
+    margin-top: 15px;
+}
+.video-container1{
+    height: 300px;
+    margin-top: 370px;
+    position: absolute;
+    margin-left: 40px;
+}
+.video-container2{
+    height: 222px;
+    margin-top: 600px;
+    position: absolute;
+    margin-left: 40px;
+}
